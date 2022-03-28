@@ -3,7 +3,7 @@ name: Legym-automation
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '0 10 * * *'
 
 env:
   TZ: 'Asia/Shanghai'
